@@ -1,0 +1,76 @@
+{
+  "configVersion": 1,
+  "index": "/angular-for-starter/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/angular-for-starter/favicon.ico",
+        "/angular-for-starter/index.html",
+        "/angular-for-starter/main.f1a35c12d1e72444de57.js",
+        "/angular-for-starter/polyfills.c6871e56cb80756a5498.js",
+        "/angular-for-starter/runtime.ec2944dd8b20ec099bf3.js",
+        "/angular-for-starter/styles.773614879bf616856250.css"
+      ],
+      "patterns": [
+        "https:\\/\\/fonts\\.googleapis\\.com\\/[^/]*",
+        "https:\\/\\/fonts\\.gstatic\\.com\\/[^/]*"
+      ]
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/angular-for-starter/assets/icons/apple-touch-icon.png",
+        "/angular-for-starter/assets/icons/icon-128x128.png",
+        "/angular-for-starter/assets/icons/icon-144x144.png",
+        "/angular-for-starter/assets/icons/icon-152x152.png",
+        "/angular-for-starter/assets/icons/icon-192x192.png",
+        "/angular-for-starter/assets/icons/icon-384x384.png",
+        "/angular-for-starter/assets/icons/icon-512x512.png",
+        "/angular-for-starter/assets/icons/icon-72x72.png",
+        "/angular-for-starter/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/angular-for-starter/assets/icons/apple-touch-icon.png": "12bcc058722ce5c02dd2e1a8dde9850270653f78",
+    "/angular-for-starter/assets/icons/icon-128x128.png": "e275252cf52313fb9712bf972b416b5ad65075d5",
+    "/angular-for-starter/assets/icons/icon-144x144.png": "60c1110c9194d3acc9f6a8e969bf8275fd0f2e90",
+    "/angular-for-starter/assets/icons/icon-152x152.png": "c7b9de34979c59cd59ab7c930fc9e397bc32b146",
+    "/angular-for-starter/assets/icons/icon-192x192.png": "192edb52b53a1d70bf9e1369b7b862c285fe6c05",
+    "/angular-for-starter/assets/icons/icon-384x384.png": "a22d7c2f0ec57fe03bd46b79bd8c29e445584587",
+    "/angular-for-starter/assets/icons/icon-512x512.png": "1e2fa051de337e6c2e8a9d6486dfbcae2328a97c",
+    "/angular-for-starter/assets/icons/icon-72x72.png": "c085a49f94682f449f7f9948c245cb3d4e2424a3",
+    "/angular-for-starter/assets/icons/icon-96x96.png": "7d97613d90ff76483dc44d4b2a3f4e5a62d3750b",
+    "/angular-for-starter/favicon.ico": "6814fb1eea7971b3208907af18b9fbd7b4e0b583",
+    "/angular-for-starter/index.html": "984708a95421dec97caa15533b9a83a2fa62f243",
+    "/angular-for-starter/main.f1a35c12d1e72444de57.js": "c79c5a6863c8da9e2a58b74c955d57baf645985f",
+    "/angular-for-starter/polyfills.c6871e56cb80756a5498.js": "ce68d153e9b9b6d26b625069c0ee99ae09c6f255",
+    "/angular-for-starter/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "/angular-for-starter/styles.773614879bf616856250.css": "2797bdcde2b2d192c35c59e634c8a7a479f06a55"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
